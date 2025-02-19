@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2">
             <h1 className="text-2xl font-black flex items-center">
               <Logo />
-              Hasan Mart
+              Next Mart
             </h1>
           </div>
           <p className="text-gray-600 mt-3 w-1/2">
