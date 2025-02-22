@@ -1,4 +1,4 @@
-import Logo from "@/app/assets/svgs/Logo";
+import Logo from "@/assets/svgs/Logo";
 import { Facebook, Instagram, X } from "lucide-react";
 import Link from "next/link";
 
@@ -28,7 +28,7 @@ const Footer = () => {
               Next Mart
             </h1>
           </div>
-          <p className="text-gray-600 mt-3 w-1/2">
+          <p className="text-gray-600 mt-3 w-1/2 text-xs leading-6">
             Save big this Black Friday with unbeatable deals on tech, home
             essentials, fashion, and more! Limited stock.
           </p>
