@@ -16,7 +16,6 @@ const ManageBrands = ({ brands }: { brands: IBrand[] }) => {
   const [selectedItem, setSelectedItem] = useState<string | null>(null);
 
   const handleDelete = (data: IBrand) => {
-    console.log(data);
     setSelectedId(data?._id);
     setSelectedItem(data?.name);
     setModalOpen(true);

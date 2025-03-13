@@ -40,7 +40,6 @@ const CreateCategoryModal = () => {
       formData.append("icon", imageFiles[0] as File);
 
       const res = await createCategory(formData);
-      console.log(res);
 
       if (res?.success) {
         toast.success(res?.message);
